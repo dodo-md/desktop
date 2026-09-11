@@ -892,7 +892,7 @@ window.gZenCompactModeManager = {
         }, this.HOVER_HACK_DELAY);
       };
 
-      target.addEventListener("mouseover", onEnter);
+      target.addEventListener("mouseenter", onEnter);
       target.addEventListener("dragover", onEnter);
 
       target.addEventListener("mouseleave", onLeave);
